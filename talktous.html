@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Got a Project? Let's Talk!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>boco</h1>
+  </header>
+
+  <main class="form-container">
+    <h2>Got a Project? Let's Talk!</h2>
+    <p>Simply complete the form below and we'll get in touch!<br/>
+    Alternatively you can send us an email to <a href="mailto:hello@boco.agency">hello@boco.agency</a></p>
+
+    <form action="#" method="POST" class="contact-form">
+      <label>1. Brand Name</label>
+      <input type="text" name="brand" />
+
+      <label>2. Your Name *</label>
+      <input type="text" name="name" required />
+
+      <label>3. Website URL *</label>
+      <input type="url" name="website" required />
+
+      <label>4. Email Address *</label>
+      <input type="email" name="email" required />
+
+      <label>5. Phone Number *</label>
+      <input type="tel" name="phone" placeholder="+91" required />
+
+      <label>6. Monthly Store Sessions *</label>
+      <div class="radio-group">
+        <label><input type="radio" name="sessions" value="less than 10k" required> Less than 10k</label>
+        <label><input type="radio" name="sessions" value="10k to 50k"> 10k to 50k</label>
+        <label><input type="radio" name="sessions" value="50k to 100k"> 50k to 100k</label>
+        <label><input type="radio" name="sessions" value="100k+"> 100k+</label>
+      </div>
+
+      <label>7. Current Conversion Rate</label>
+      <input type="text" name="conversion" />
+
+      <label>8. Issues with Your Shopify Store *</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="issues" value="Website Design"> Website Design & Development</label>
+        <label><input type="checkbox" name="issues" value="Landing Pages"> High Converting Landing Pages</label>
+        <label><input type="checkbox" name="issues" value="Technical Support"> Technical Maintenance & Support</label>
+        <label><input type="checkbox" name="issues" value="CRO"> Conversion Rate Optimization</label>
+      </div>
+
+      <label>9. Overview *</label>
+      <textarea name="overview" rows="4" required placeholder="Give us a short summary of your requirements"></textarea>
+
+      <label>10. How did you find us today?</label>
+      <input type="text" name="referral" />
+
+      <button type="submit">Submit →</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>Faster Websites. Higher conversion. More revenue.</p>
+    <div class="footer-columns">
+      <div>
+        <h3>boco</h3>
+        <p>We are driven by quality and we’re 0 bullshit.<br>If you think the same way, we love a good chat.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li>Shopify Store Build</li>
+          <li>Custom Landing Pages</li>
+          <li>Case Studies</li>
+        </ul>
+      </div>
+    </div>
+    <p>© Copyright, BOCO 2024</p>
+  </footer>
+</body>
+</html>
